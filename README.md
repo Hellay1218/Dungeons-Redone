@@ -11,7 +11,7 @@ the renames both work with the start of the names being uppercase and lower case
 
 (for example both Dancer's Sword and dancer's sword will work for getting the dancer's sword)
 
-you can see the image of each rename in the gallery
+you can see the image of each rename in the wiki (wip)
 
 <details>
 <summary>All Renames</summary>
