@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "hellay:item/poisonous_glaive_inventory"
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "hellay:item/big_handle_weapon_template",
+	"textures": {
+		"layer0": "hellay:item/obsidian_claymore"
+	}
+}

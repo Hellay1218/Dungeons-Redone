@@ -1,0 +1,518 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": ["Sickle" , "sickle"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/sickle"
+          }
+      },
+      {
+        "when": ["The First Laugh" , "the first laugh" , "First Laugh" , "first laugh"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/first_laugh"
+          }
+      },
+      {
+        "when": ["The Last Laugh" , "the last laugh" , "Last Laugh" , "last laugh"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+      },
+      {
+        "when": ["Nightmare's Bite" , "nightmare's bite" , "Nightmares Bite" , "nightmares bite"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/nightmares_bite"
+          }
+      },
+      {
+        "when": ["Dagger" , "dagger"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/dagger"
+        }
+      },
+      {
+        "when": ["Moon Dagger" , "moon dagger"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/moon_dagger"
+        }
+      },
+      {
+        "when": ["Sheer Dagger" , "sheer dagger"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/sheer_dagger"
+        }
+      },
+      {
+        "when": ["Fang Of Frost" , "fang of frost", "Frost Fang" , "frost fang"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/fang_of_frost"
+        }
+      },
+      {
+        "when": ["Soul Knife" , "soul knife"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/soul_knife"
+        }
+      },
+      {
+        "when": ["Eternal Knife" , "eternal knife"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/eternal_knife"
+        }
+      },
+      {
+        "when": ["Hawkbrand","hawkbrand"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/hawkbrand_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/hawkbrand"
+          }
+        }
+      },
+      {
+        "when": ["Cutlass" , "cutlass"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/cutlass_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/cutlass"
+          }
+        }
+      },
+      {
+        "when": ["Nameless Blade" , "nameless blade"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/nameless_blade_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/nameless_blade"
+          }
+        }
+      },
+      {
+        "when": ["Katana","katana"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/katana_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/katana"
+          }
+        }
+      },
+      {
+        "when": ["Master's Katana" , "master's katana", "Masters Katana" , "masters katana"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/masters_katana_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/masters_katana"
+          }
+        }
+      },
+      {
+        "when": ["Dark Katana","dark katana"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/dark_katana_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/dark_katana"
+          }
+        }
+      },
+      {
+        "when": ["Claymore" , "claymore"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/claymore_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/claymore"
+          }
+        }
+      },
+      {
+        "when": ["Heartstealer" , "heartstealer"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/heartstealer_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/heartstealer"
+          }
+        }
+      },
+      {
+        "when": ["Great Axeblade" , "great axeblade"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/great_axeblade_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/great_axeblade"
+          }
+        }
+      },
+      {
+        "when": ["Truthseeker" , "truthseeker"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/truthseeker_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/truthseeker"
+          }
+        }
+      },
+      {
+        "when": ["Dancer's Sword","Dancers Sword","dancer's sword","dancers sword"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/dancers_sword_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/dancers_sword"
+          }
+        }
+      },
+      {
+        "when": ["Broad Sword" , "broad sword"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/broad_sword_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/broad_sword"
+          }
+        }
+      },
+      {
+        "when": ["Frost Slayer","frost slayer"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/frost_slayer_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/frost_slayer"
+          }
+        }
+      },
+      {
+        "when": ["Obsidian Claymore" , "obsidian claymore"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/obsidian_claymore_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/obsidian_claymore"
+          }
+        }
+      },
+      {
+        "when": ["Starless Night" , "starless night"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/starless_night_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/starless_night"
+          }
+        }
+      },
+      {
+        "when": ["Glaive","glaive"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/glaive_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/glaive"
+          }
+        }
+      },
+      {
+        "when": ["Grave Bane" , "grave bane" , "Golden Glaive" , "golden glaive"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/golden_glaive_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/golden_glaive"
+          }
+        }
+      },
+      {
+        "when": ["Venom Glaive" , "venom glaive"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/poisonous_glaive_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/poisonous_glaive"
+          }
+        }
+      },
+      {
+        "when": ["Frost Scythe","frost scythe"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/frost_scythe_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/frost_scythe"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:context_entity_type",
+      "cases": [
+        {
+        "when": "minecraft:skeleton",
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/glaive"
+          }
+        },
+        {
+          "when": "minecraft:bogged",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/nightmares_bite"
+          }
+        },
+        {
+          "when": "minecraft:stray",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/fang_of_frost"
+          }
+        },
+        {
+          "when": "minecraft:wither_skeleton",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/heartstealer"
+          }
+        },
+        {
+          "when": "minecraft:zombie",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/hawkbrand"
+          }
+        },
+        {
+          "when": "minecraft:husk",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/katana"
+          }
+        },
+        {
+          "when": "minecraft:drowned",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/eternal_knife"
+          }
+        }
+      ],
+      "fallback":{
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_sword"
+      }
+    }
+  }
+}
