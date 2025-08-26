@@ -1,5 +1,5 @@
 {
-  "parent": "hellay:item/shivering_bow",
+  "parent": "hellay:item/big_bow_template",
   "textures": {
     "layer0": "hellay:item/shivering_bow_pulling_2"
   }

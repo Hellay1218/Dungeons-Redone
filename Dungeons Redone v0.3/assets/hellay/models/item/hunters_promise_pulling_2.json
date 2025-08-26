@@ -1,6 +1,6 @@
 {
   "parent": "hellay:item/big_bow_template",
   "textures": {
-    "layer0": "hellay:item/shivering_bow_pulling_1"
+    "layer0": "hellay:item/hunters_promise_pulling_2"
   }
 }

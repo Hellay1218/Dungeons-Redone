@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/bow",
   "textures": {
-    "layer0": "hellay:item/shivering_bow_inventory"
+    "layer0": "hellay:item/hunters_promise_inventory"
   }
 }
