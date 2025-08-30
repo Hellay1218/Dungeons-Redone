@@ -14,7 +14,6 @@ Terms Of Use
 Available Renames
 
 (v0.1):
-
 - Glaive (sword rename)
 - Venom Glaive (sword rename)
 - Grave Bane (sword rename)
@@ -34,8 +33,30 @@ Available Renames
 - Spear (trident rename)
 - Fortune Spear (trident rename)
 - Whispering Spear (trident rename)
-(updates to : Fire brand (Major) - Glaive, Venom Glaive , Grave Bane , Frost Slayer , Frost Scythe , Cutlass , Dancer's Sword , Katana (Minor))
+  updates to : (Major): Fire brand  - (Minor): Glaive, Venom Glaive , Grave Bane , Frost Slayer , Frost Scythe , Cutlass , Dancer's Sword , Katana
 
-(v0.3):WIP
+(v0.3):
+- Sickle (sword and axe rename)
+- The First Laugh (sword and axe rename)
+- The Last Laugh (sword and axe rename)
+- Nightmare's Bite (sword and axe rename)
+- Dagger (sword rename)
+- Fang Of Frost (sword rename)
+- Moon Dagger (sword rename)
+- Sheer Dagger (sword rename)
+- Soul Knife (sword rename)
+- Eternal Knife (sword rename)
+- Truthseeker (sword rename)
+- Claymore (sword rename)
+- Heartstealer (sword rename)
+- Great Axeblade (sword and axe rename)
+- Obsidian Claymore (sword rename)
+- Starless Night (sword rename)
+- Bonebow (bow rename)
+- Hunting Bow (bow rename)
+- Hunter's Promise (bow rename)
+- Snow Bow (bow rename)
+- Winter's Touch (bow rename)
+- Shivering Bow (bow rename)
 
 Download Page : https://modrinth.com/resourcepack/dungeons-redone
