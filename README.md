@@ -8,13 +8,14 @@ please keep in mind this pack is still wip, not done and more will be added late
 
 also tries to be compatible with [hold my items](https://modrinth.com/mod/hold-my-items)
 
-# **The Renames**
+# **The Weapons**
 the renames both work with the start of the names being uppercase and lower case
 
 (for example both Dancer's Sword and dancer's sword will work for getting the dancer's sword)
 
 you can see the image of each rename in the [wiki](https://github.com/Hellay1218/Dungeons-Redone/wiki/Renames-(WIP))!
 
+some mobs also have special weapons based on the enchants or tier
 (mob weapons documentation soon)
 
 <details>
