@@ -463,7 +463,7 @@
           "when": "minecraft:skeleton",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/golden_glaive"
+            "model": "hellay:item/glaive"
           }
         },
         {
@@ -505,7 +505,7 @@
           "when": "minecraft:drowned",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/cutlass"
+            "model": "hellay:item/eternal_knife"
           }
         }
       ],

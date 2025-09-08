@@ -463,14 +463,14 @@
         "when": "minecraft:skeleton",
         "model": {
           "type": "minecraft:model",
-          "model": "hellay:item/glaive"
+          "model": "hellay:item/dagger"
           }
         },
         {
           "when": "minecraft:bogged",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/nightmares_bite"
+            "model": "hellay:item/sheer_dagger"
           }
         },
         {
@@ -484,28 +484,28 @@
           "when": "minecraft:wither_skeleton",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/heartstealer"
+            "model": "hellay:item/nameless_blade"
           }
         },
         {
           "when": "minecraft:zombie",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/hawkbrand"
+            "model": "hellay:item/dagger"
           }
         },
         {
           "when": "minecraft:husk",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/katana"
+            "model": "hellay:item/moon_dagger"
           }
         },
         {
           "when": "minecraft:drowned",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/eternal_knife"
+            "model": "hellay:item/fang_of_frost"
           }
         }
       ],

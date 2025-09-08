@@ -53,6 +53,26 @@
         }
       },
       {
+        "when": ["Great Axeblade" , "great axeblade"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/great_axeblade_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/great_axeblade"
+          }
+        }
+      },
+      {
         "when": ["Frost Scythe" , "frost scythe"],
         "model": {
           "type": "minecraft:select",
@@ -85,10 +105,52 @@
           }
         },
         {
+          "when": "minecraft:skeleton",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/first_laugh"
+          }
+        },
+        {
+          "when": "minecraft:bogged",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/nightmares_bite"
+          }
+        },
+        {
           "when": "minecraft:stray",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/frost_scythe"
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:wither_skeleton",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:zombie",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:husk",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:drowned",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
           }
         }
       ],

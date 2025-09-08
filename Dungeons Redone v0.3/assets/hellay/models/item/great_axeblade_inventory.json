@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"layer0": "hellay:item/fang_of_frost"
+		"layer0": "hellay:item/great_axeblade_inventory"
 	}
 }

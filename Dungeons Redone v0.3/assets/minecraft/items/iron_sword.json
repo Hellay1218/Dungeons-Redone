@@ -463,7 +463,7 @@
         "when": "minecraft:skeleton",
         "model": {
           "type": "minecraft:model",
-          "model": "hellay:item/glaive"
+          "model": "hellay:item/katana"
           }
         },
         {
@@ -477,7 +477,7 @@
           "when": "minecraft:stray",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/fang_of_frost"
+            "model": "hellay:item/soul_knife"
           }
         },
         {
@@ -505,7 +505,7 @@
           "when": "minecraft:drowned",
           "model": {
             "type": "minecraft:model",
-            "model": "hellay:item/eternal_knife"
+            "model": "hellay:item/soul_knife"
           }
         }
       ],
