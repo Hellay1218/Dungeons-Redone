@@ -1,7 +1,9 @@
 {
   "pack": {
-    "pack_format": 55,
-    "supported_formats": {"min_inclusive": 46, "max_inclusive": 99},
-    "description": "§fmade by §9§lHellay"
+    "pack_format": 46, 
+    "supported_formats": [46, 86], 
+    "min_format": 46, 
+    "max_format": 86,
+    "description": "§r§bv0.3.1 \n§r§fmade by §9§lHellay"
   }
 }
