@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "hellay:item/hunters_promise_inventory_pulling_1"
+  }
+}

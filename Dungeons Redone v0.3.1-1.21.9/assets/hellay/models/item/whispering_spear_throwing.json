@@ -1,0 +1,6 @@
+{
+	"parent": "hellay:item/trident_throwing_template",
+	"textures": {
+		"layer0": "hellay:item/whispering_spear"
+	}
+}

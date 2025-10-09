@@ -1,0 +1,608 @@
+{
+  "model": {
+    "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": ["Bonebow" , "bonebow"],
+          "model": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "hellay:item/bonebow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "entries": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/bonebow_pulling_1"
+                  },
+                  "threshold": 0.65
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/bonebow_pulling_2"
+                  },
+                  "threshold": 0.9
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "hellay:item/bonebow_pulling_0"
+              },
+              "property": "minecraft:use_duration",
+              "scale": 0.05
+            },
+            "property": "minecraft:using_item"
+          }
+        },
+        {
+          "when": ["Snow Bow","snow bow"],
+          "model": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "hellay:item/snow_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "entries": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/snow_bow_pulling_1"
+                  },
+                  "threshold": 0.65
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/snow_bow_pulling_2"
+                  },
+                  "threshold": 0.9
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "hellay:item/snow_bow_pulling_0"
+              },
+              "property": "minecraft:use_duration",
+              "scale": 0.05
+            },
+            "property": "minecraft:using_item"
+          }
+        },
+        {
+          "when": ["Winter's Touch","winter's touch","Winters Touch","winters touch"],
+          "model": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "hellay:item/winters_touch"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "entries": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/winters_touch_pulling_1"
+                  },
+                  "threshold": 0.65
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/winters_touch_pulling_2"
+                  },
+                  "threshold": 0.9
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "hellay:item/winters_touch_pulling_0"
+              },
+              "property": "minecraft:use_duration",
+              "scale": 0.05
+            },
+            "property": "minecraft:using_item"
+          }
+        },
+        {
+          "when": ["Hunting Bow","hunting bow"],
+          "model": {
+            "type": "minecraft:condition",
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "hellay:item/hunting_bow"
+            },
+            "on_true": {
+              "type": "minecraft:range_dispatch",
+              "entries": [
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/hunting_bow_pulling_1"
+                  },
+                  "threshold": 0.65
+                },
+                {
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/hunting_bow_pulling_2"
+                  },
+                  "threshold": 0.9
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "hellay:item/hunting_bow_pulling_0"
+              },
+              "property": "minecraft:use_duration",
+              "scale": 0.05
+            },
+            "property": "minecraft:using_item"
+          }
+        },
+        {
+          "when": ["Hunter's Promise", "hunter's promise" , "Hunters Promise" , "hunters promise"],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui","ground","fixed"],
+                "model": {
+                  "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/hunters_promise_inventory"
+                  },
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "entries": [
+                      {
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "hellay:item/hunters_promise_inventory_pulling_1"
+                        },
+                        "threshold": 0.65
+                      },
+                      {
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "hellay:item/hunters_promise_inventory_pulling_2"
+                        },
+                        "threshold": 0.9
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/hunters_promise_inventory_pulling_0"
+                    },
+                    "property": "minecraft:use_duration",
+                    "scale": 0.05
+                  },
+                  "property": "minecraft:using_item"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "hellay:item/hunters_promise"
+              },
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "entries": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/hunters_promise_pulling_1"
+                    },
+                    "threshold": 0.65
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/hunters_promise_pulling_2"
+                    },
+                    "threshold": 0.9
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/hunters_promise_pulling_0"
+                },
+                "property": "minecraft:use_duration",
+                "scale": 0.05
+              },
+              "property": "minecraft:using_item"
+            }
+          }
+        },
+        {
+          "when": ["Shivering Bow", "shivering bow"],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "when": ["gui","ground","fixed"],
+                "model": {
+                  "type": "minecraft:condition",
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/shivering_bow_inventory"
+                  },
+                  "on_true": {
+                    "type": "minecraft:range_dispatch",
+                    "entries": [
+                      {
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "hellay:item/shivering_bow_inventory_pulling_1"
+                        },
+                        "threshold": 0.65
+                      },
+                      {
+                        "model": {
+                          "type": "minecraft:model",
+                          "model": "hellay:item/shivering_bow_inventory_pulling_2"
+                        },
+                        "threshold": 0.9
+                      }
+                    ],
+                    "fallback": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/shivering_bow_inventory_pulling_0"
+                    },
+                    "property": "minecraft:use_duration",
+                    "scale": 0.05
+                  },
+                  "property": "minecraft:using_item"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "hellay:item/shivering_bow"
+              },
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "entries": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/shivering_bow_pulling_1"
+                    },
+                    "threshold": 0.65
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/shivering_bow_pulling_2"
+                    },
+                    "threshold": 0.9
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/shivering_bow_pulling_0"
+                },
+                "property": "minecraft:use_duration",
+                "scale": 0.05
+              },
+              "property": "minecraft:using_item"
+            }
+          }
+        }
+      ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:context_entity_type",
+      "cases": [
+        {
+          "when": "minecraft:skeleton",
+          "model": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "enchantments",
+            "value": [
+              {
+                "enchantments": ["power","unbreaking","punch"],
+                "levels": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            ],
+            "on_true": {
+            "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "hellay:item/hunters_promise"
+              },
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "entries": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/hunters_promise_pulling_1"
+                    },
+                    "threshold": 0.65
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/hunters_promise_pulling_2"
+                    },
+                    "threshold": 0.9
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/hunters_promise_pulling_0"
+                },
+                "property": "minecraft:use_duration",
+                "scale": 0.05
+              },
+              "property": "minecraft:using_item"
+            },
+            "on_false": {
+              "type": "condition",
+              "property": "component",
+              "predicate": "enchantments",
+              "value": [
+                {
+                  "enchantments": ["power","infinity","mending","unbreaking","flame","punch"],
+                  "levels": {
+                    "min": 1,
+                    "max": 2
+                    }
+                }
+              ],
+              "on_true": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/hunting_bow"
+                },
+                "on_true": {
+                  "type": "minecraft:range_dispatch",
+                  "entries": [
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "hellay:item/hunting_bow_pulling_1"
+                      },
+                      "threshold": 0.65
+                    },
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "hellay:item/hunting_bow_pulling_2"
+                      },
+                      "threshold": 0.9
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/hunting_bow_pulling_0"
+                  },
+                  "property": "minecraft:use_duration",
+                  "scale": 0.05
+                },
+                "property": "minecraft:using_item"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/bow"
+                },
+                "on_true": {
+                  "type": "minecraft:range_dispatch",
+                  "entries": [
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bow_pulling_1"
+                      },
+                      "threshold": 0.65
+                    },
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bow_pulling_2"
+                      },
+                      "threshold": 0.9
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bow_pulling_0"
+                  },
+                  "property": "minecraft:use_duration",
+                  "scale": 0.05
+                },
+                "property": "minecraft:using_item"
+              }
+            }
+          }
+        },
+        {
+          "when": "minecraft:stray",
+          "model": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "enchantments",
+            "value": [
+              {
+                "enchantments": ["power","unbreaking","punch"],
+                "levels": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            ],
+            "on_true": {
+            "type": "minecraft:condition",
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "hellay:item/shivering_bow"
+              },
+              "on_true": {
+                "type": "minecraft:range_dispatch",
+                "entries": [
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/shivering_bow_pulling_1"
+                    },
+                    "threshold": 0.65
+                  },
+                  {
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "hellay:item/shivering_bow_pulling_2"
+                    },
+                    "threshold": 0.9
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/shivering_bow_pulling_0"
+                },
+                "property": "minecraft:use_duration",
+                "scale": 0.05
+              },
+              "property": "minecraft:using_item"
+            },
+            "on_false": {
+              "type": "condition",
+              "property": "component",
+              "predicate": "enchantments",
+              "value": [
+                {
+                  "enchantments": ["power","infinity","mending","unbreaking","flame","punch"],
+                  "levels": {
+                    "min": 1,
+                    "max": 2
+                    }
+                }
+              ],
+              "on_true": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/winters_touch"
+                },
+                "on_true": {
+                  "type": "minecraft:range_dispatch",
+                  "entries": [
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "hellay:item/winters_touch_pulling_1"
+                      },
+                      "threshold": 0.65
+                    },
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "hellay:item/winters_touch_pulling_2"
+                      },
+                      "threshold": 0.9
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/winters_touch_pulling_0"
+                  },
+                  "property": "minecraft:use_duration",
+                  "scale": 0.05
+                },
+                "property": "minecraft:using_item"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "hellay:item/snow_bow"
+                },
+                "on_true": {
+                  "type": "minecraft:range_dispatch",
+                  "entries": [
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "hellay:item/snow_bow_pulling_1"
+                      },
+                      "threshold": 0.65
+                    },
+                    {
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "hellay:item/snow_bow_pulling_2"
+                      },
+                      "threshold": 0.9
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "hellay:item/snow_bow_pulling_2"
+                  },
+                  "property": "minecraft:use_duration",
+                  "scale": 0.05
+                },
+                "property": "minecraft:using_item"
+              }
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/bow"
+        },
+        "on_true": {
+          "type": "minecraft:range_dispatch",
+          "entries": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow_pulling_1"
+              },
+              "threshold": 0.65
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/bow_pulling_2"
+              },
+              "threshold": 0.9
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bow_pulling_0"
+          },
+          "property": "minecraft:use_duration",
+          "scale": 0.05
+        },
+        "property": "minecraft:using_item"
+      }
+    }
+  }
+}
