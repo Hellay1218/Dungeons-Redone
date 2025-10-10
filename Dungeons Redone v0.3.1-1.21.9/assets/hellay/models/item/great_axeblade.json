@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:item/handheld",
+	"parent": "hellay:item/small_handle_weapon_template",
 	"textures": {
 		"layer0": "hellay:item/great_axeblade"
 	}
