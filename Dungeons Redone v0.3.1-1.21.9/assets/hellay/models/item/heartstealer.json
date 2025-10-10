@@ -1,5 +1,5 @@
 {
-	"parent": "hellay:item/big_handle_weapon_template",
+	"parent": "hellay:item/small_handle_weapon_template",
 	"textures": {
 		"layer0": "hellay:item/heartstealer"
 	}
