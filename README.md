@@ -1,4 +1,4 @@
-![dungeons redone](https://cdn.modrinth.com/data/cached_images/51c047d9200ce6d104ebdd47e8577166b89e0aa1.png)
+![dungeons redone banner](https://cdn.modrinth.com/data/cached_images/83f4fcbbe0d1907b2ab65f11c9d5b8ff1538aca9.png)
 
 # **About**
 
