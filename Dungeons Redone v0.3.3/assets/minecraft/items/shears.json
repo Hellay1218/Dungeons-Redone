@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": ["Frost Scissors" , "Brittle Scissors"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/frost_scissors"
+        }
+      },
+      {
+        "when": ["Gold Scissors"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/gold_scissors"
+        }
+      },
+      {
+        "when": ["Toy Scissors"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/toy_scissors"
+        }
+      },
+      {
+        "when": ["Scissors"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/scissors"
+        }
+      },
+      {
+        "when": ["Duality Scissors"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/duality_scissors"
+        }
+      },
+      {
+        "when": ["Bowtie Scissors"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "hellay:item/bowtie_scissors"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/shears"
+    }
+  }
+}

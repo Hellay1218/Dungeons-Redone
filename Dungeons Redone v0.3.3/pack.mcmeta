@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "description": [
+      "§r§bv0.3.3 \n§r§fmade by ",
+      {
+        "player": "_Hellay",
+        "hat": true,
+        "extra": [
+          "§9§l_Hellay"
+        ]
+      }
+    ],
+    "pack_format": 69,
+    "min_format": 69,
+    "max_format": 94
+  }
+}

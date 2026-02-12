@@ -1,0 +1,183 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": ["Sickle" , "sickle"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/sickle"
+          }
+      },
+      {
+        "when": ["The First Laugh" , "the first laugh" , "First Laugh" , "first laugh"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/first_laugh"
+          }
+      },
+      {
+        "when": ["The Last Laugh" , "the last laugh" , "Last Laugh" , "last laugh"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+      },
+      {
+        "when": ["Nightmare's Bite" , "nightmare's bite" , "Nightmares Bite" , "nightmares bite"],
+        "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/nightmares_bite"
+          }
+      },
+      {
+        "when": ["Fire Brand" , "fire brand"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed","on_shelf"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/fire_axe_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/fire_axe"
+          }
+        }
+      },
+      {
+        "when": ["Great Axeblade" , "great axeblade"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed","on_shelf"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/great_axeblade_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/great_axeblade"
+          }
+        }
+      },
+      {
+        "when": ["Frost Scythe" , "frost scythe"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed","on_shelf"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/frost_scythe_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/frost_scythe"
+          }
+        }
+      },
+      {
+        "when": ["Susie Axe" , "susie axe" , "Idea","idea"],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": ["gui","ground","fixed","on_shelf"],
+              "model": {
+                "type": "minecraft:model",
+                "model": "hellay:item/susie_axe_inventory"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "hellay:item/susie_axe"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:context_entity_type",
+      "cases": [
+        {
+          "when": "minecraft:piglin_brute",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/fire_axe"
+          }
+        },
+        {
+          "when": "minecraft:skeleton",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/first_laugh"
+          }
+        },
+        {
+          "when": "minecraft:bogged",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/nightmares_bite"
+          }
+        },
+        {
+          "when": "minecraft:stray",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:wither_skeleton",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:zombie",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:husk",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        },
+        {
+          "when": "minecraft:drowned",
+          "model": {
+            "type": "minecraft:model",
+            "model": "hellay:item/last_laugh"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_axe"
+      }
+    }
+  }
+}

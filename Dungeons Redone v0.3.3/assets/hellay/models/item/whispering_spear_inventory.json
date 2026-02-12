@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "hellay:item/whispering_spear_inventory"
+	}
+}

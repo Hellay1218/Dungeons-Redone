@@ -1,0 +1,6 @@
+{
+	"parent": "hellay:item/middle_handle_weapon_template",
+	"textures": {
+		"layer0": "hellay:item/fortune_spear"
+	}
+}

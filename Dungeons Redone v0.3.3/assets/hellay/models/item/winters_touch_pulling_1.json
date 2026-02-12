@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "hellay:item/winters_touch_pulling_1"
+  }
+}
